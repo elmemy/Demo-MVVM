@@ -60,17 +60,49 @@
 		AD6D3E5623A43B670027634C /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				AD6D3E7123A458C60027634C /* Authentication */,
 				AD6D3E5723A43B670027634C /* AppDelegate.swift */,
 				AD6D3E5923A43B670027634C /* SceneDelegate.swift */,
-				AD6D3E5B23A43B670027634C /* LoginViewController.swift */,
-				AD6D3E6B23A43CF80027634C /* UserViewModel.swift */,
-				AD6D3E6D23A43D330027634C /* User.swift */,
-				AD6D3E5D23A43B670027634C /* Main.storyboard */,
 				AD6D3E6023A43B6F0027634C /* Assets.xcassets */,
 				AD6D3E6223A43B6F0027634C /* LaunchScreen.storyboard */,
 				AD6D3E6523A43B6F0027634C /* Info.plist */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		AD6D3E7123A458C60027634C /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D3E7423A4592B0027634C /* Model */,
+				AD6D3E7523A459630027634C /* View */,
+				AD6D3E7223A459030027634C /* ViewModel */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		AD6D3E7223A459030027634C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D3E5B23A43B670027634C /* LoginViewController.swift */,
+				AD6D3E6B23A43CF80027634C /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD6D3E7423A4592B0027634C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D3E6D23A43D330027634C /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD6D3E7523A459630027634C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D3E5D23A43B670027634C /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
