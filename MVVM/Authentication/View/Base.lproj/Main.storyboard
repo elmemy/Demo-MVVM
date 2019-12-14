@@ -49,17 +49,26 @@
                                     <action selector="Auth" destination="BYZ-38-t0r" eventType="touchUpInside" id="fic-32-20O"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbk-d3-NLu">
+                                <rect key="frame" x="186" y="333" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Hbk-d3-NLu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZP8-vY-wxW"/>
                             <constraint firstItem="x9M-Dg-Z3Y" firstAttribute="top" secondItem="nGx-gw-rnj" secondAttribute="bottom" constant="10" id="b07-nw-QKs"/>
                             <constraint firstItem="nGx-gw-rnj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="gIU-RQ-Ahz"/>
                             <constraint firstItem="nGx-gw-rnj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kSh-bg-dQk"/>
                             <constraint firstItem="x9M-Dg-Z3Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xi4-5Z-D5G"/>
+                            <constraint firstItem="Hbk-d3-NLu" firstAttribute="top" secondItem="x9M-Dg-Z3Y" secondAttribute="bottom" constant="49" id="zTg-Bs-4cF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="CodeLabel" destination="Hbk-d3-NLu" id="sZP-12-KEE"/>
                         <outlet property="passwordTF" destination="QaT-1r-n9T" id="oKK-tk-wdz"/>
                         <outlet property="userNameTF" destination="4dW-xE-Iak" id="Nwr-jn-o43"/>
                     </connections>

@@ -12,6 +12,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var userNameTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
+    @IBOutlet weak var CodeLabel: UILabel!
     
     
     //CallViewModel
@@ -19,7 +20,10 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        viewModel.accessCode.bind
+            {
+                self.CodeLabel.text = $0
+        }
     }
     
     

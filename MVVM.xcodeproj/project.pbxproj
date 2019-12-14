@@ -15,6 +15,7 @@
 		AD6D3E6423A43B6F0027634C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6D3E6223A43B6F0027634C /* LaunchScreen.storyboard */; };
 		AD6D3E6C23A43CF80027634C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D3E6B23A43CF80027634C /* UserViewModel.swift */; };
 		AD6D3E6E23A43D330027634C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D3E6D23A43D330027634C /* User.swift */; };
+		AD6D3E7723A45E580027634C /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D3E7623A45E580027634C /* Binding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AD6D3E6523A43B6F0027634C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6D3E6B23A43CF80027634C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		AD6D3E6D23A43D330027634C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AD6D3E7623A45E580027634C /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				AD6D3E5B23A43B670027634C /* LoginViewController.swift */,
 				AD6D3E6B23A43CF80027634C /* UserViewModel.swift */,
+				AD6D3E7623A45E580027634C /* Binding.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				AD6D3E6C23A43CF80027634C /* UserViewModel.swift in Sources */,
 				AD6D3E5C23A43B670027634C /* LoginViewController.swift in Sources */,
 				AD6D3E5823A43B670027634C /* AppDelegate.swift in Sources */,
+				AD6D3E7723A45E580027634C /* Binding.swift in Sources */,
 				AD6D3E6E23A43D330027634C /* User.swift in Sources */,
 				AD6D3E5A23A43B670027634C /* SceneDelegate.swift in Sources */,
 			);
