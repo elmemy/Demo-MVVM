@@ -20,10 +20,23 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         viewModel.accessCode.bind
             {
                 self.CodeLabel.text = $0
+                print("access code is changed to: \($0)")
+                
         }
+        viewModel.username.bind
+            {
+                print("username is changed: \($0)")
+        }
+        
+        viewModel.password.bind
+            {
+                print("password is changed: \($0)")
+        }
+        
     }
     
     

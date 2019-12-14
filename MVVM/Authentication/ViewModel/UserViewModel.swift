@@ -22,20 +22,21 @@ class UserViewModel
     private let codeRefreshTime = 5.0
     var code = 0
     
-    //Call Model
-    private var user = User()
     
-    var username : String
-    {
-        return user.username
-    }
-    var password : String
-    {
-        return user.password
-    }
-    
+    //Binding
+    var username : Binding<String> = Binding("")
+    var password : Binding<String> = Binding("")
     var accessCode : Binding<String> = Binding("")
     
+    //Call Model
+    private var user = User()
+    {
+        didSet
+        {
+            username.value = user.username
+            password.value = user.password
+        }
+    }
     
     init(user:User = User()) {
         self.user = user
